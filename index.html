@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velvet Espresso | Artisanal Coffee Roasters & Slow Bar</title>
+  <meta name="description" content="Experience Velvet Espresso, Toronto's premium artisanal coffee roasters and slow bar. Book a table or explore our meticulously crafted signature brews.">
+  
+  <!-- Premium Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Blobs -->
+  <div class="glow-blob glow-1"></div>
+  <div class="glow-blob glow-2"></div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-text">Velvet Espresso</span>
+        <span class="logo-sub">Slow Bar</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#menu">Slow Bar Menu</a></li>
+        <li><a href="#experience">Experience</a></li>
+      </ul>
+      
+      <div class="nav-actions">
+        <button class="btn btn-nav btn-drawer-trigger">Book a Table</button>
+        
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-toggle" aria-label="Toggle mobile menu" id="mobile-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero-section">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          <span>Crafting Quiet Luxury Daily</span>
+        </div>
+        <h1>Meticulous Craft.<br><span class="accent-text">Quiet Luxury.</span></h1>
+        <p class="hero-subtitle">An exquisite slow bar coffee experience where masterfully roasted, ethically sourced single-origins meet quiet, elegant architecture. Built for refined coffee culture.</p>
+        
+        <div class="hero-buttons">
+          <button class="btn btn-primary btn-drawer-trigger">Reserve Table</button>
+          <a href="#menu" class="btn btn-secondary">Explore Slow Bar</a>
+        </div>
+        
+        <!-- Info Cards overlaying Hero -->
+        <div class="hero-info-grid">
+          <div class="info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div class="info-card-text">
+              <h3>Locate Us</h3>
+              <p>124 King St West, Toronto</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div class="info-card-text">
+              <h3>Opening Hours</h3>
+              <p>Mon - Sun: 7:00 AM - 8:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Hero Image Wrapper -->
+      <div class="hero-image-wrapper">
+        <div class="image-inner">
+          <img src="assets/hero_coffee.png" alt="Exquisite macro shot of hand-poured specialty espresso" class="hero-image">
+          <div class="image-card-floating">
+            <div class="floating-rate">
+              <span class="gold-star">★</span>
+              <span>4.9</span>
+            </div>
+            <p>1,200+ Guest Reviews</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Story / Concept Section -->
+  <section class="story-section" id="story">
+    <div class="section-container">
+      <div class="story-grid">
+        <div class="story-image-block">
+          <div class="story-image-container">
+            <img src="assets/cafe_interior.png" alt="Obsidian concrete interior architecture of Velvet Espresso Cafe" class="story-image">
+            <div class="experience-badge">
+              <span class="exp-number">03</span>
+              <span class="exp-text">Years of Artisanal<br>Roasting Excellence</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="story-content-block">
+          <span class="section-badge">The Philosophy</span>
+          <h2>A Sanctuaried Haven For Coffee Epicureans</h2>
+          <p class="story-text">At Velvet Espresso, we treat coffee not merely as a morning commodity, but as a culinary art. Inspired by the quiet, concrete-and-brass slow coffee bars of Tokyo and Copenhagen, we created a sanctuary away from the city's frantic hum.</p>
+          
+          <div class="philosophy-checklist">
+            <div class="check-item">
+              <div class="check-icon">✓</div>
+              <div class="check-text">
+                <h3>Single-Origin Micro-Lots</h3>
+                <p>We source 100% traceable, seasonal specialty beans directly from micro-lot farms in Ethiopia, Colombia, and Yemen.</p>
+              </div>
+            </div>
+            <div class="check-item">
+              <div class="check-icon">✓</div>
+              <div class="check-text">
+                <h3>Symphonic Slow Bar Extraction</h3>
+                <p>Every slow-drip cup is hand-ground and extracted dynamically through V60 or Chemex at scientifically calibrated temperatures.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Menu Section -->
+  <section class="menu-section" id="menu">
+    <div class="section-container">
+      <div class="menu-header">
+        <span class="section-badge">The Slow Bar Selection</span>
+        <h2>Curated Artisanal Crafts</h2>
+        <p class="section-desc">Explore our seasonal slow bar catalog. Every brew is prepared to-order with precision water ratios and freshly-roasted micro-lot beans.</p>
+        
+        <!-- Filter Category Tabs -->
+        <div class="menu-tabs" id="menu-tabs">
+          <button class="tab-btn active" data-category="all">All Crafts</button>
+          <button class="tab-btn" data-category="signature">Signature Espresso</button>
+          <button class="tab-btn" data-category="slowdrip">Slow Drip Bar</button>
+          <button class="tab-btn" data-category="patisserie">Pâtisserie</button>
+        </div>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid" id="menu-grid">
+        <!-- Card 1: Velvet Macchiato -->
+        <div class="menu-card" data-category="signature">
+          <div class="menu-card-header">
+            <span class="item-tag">Barista Signature</span>
+            <span class="item-price">$6.75</span>
+          </div>
+          <h3 class="item-title">Velvet Gold Macchiato</h3>
+          <p class="item-description">Double-shot washed Ethiopian heirloom espresso, layered with micro-foamed organic oat milk, finished with an elegant drop of cold-pressed orange blossom honey and edible gold flakes.</p>
+          <div class="item-footer">
+            <span class="item-meta">Light Roast</span>
+            <span class="item-meta">Ethiopia</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Geisha V60 -->
+        <div class="menu-card" data-category="slowdrip">
+          <div class="menu-card-header">
+            <span class="item-tag">slow drip pour-over</span>
+            <span class="item-price">$12.00</span>
+          </div>
+          <h3 class="item-title">Geisha Jasmine V60</h3>
+          <p class="item-description">Legendary Panama Geisha beans extracted painstakingly through a ceramic V60. Delivers stunning tea-like clarity, high notes of jasmine blossom, sweet peach nectar, and a white grape acidity finish.</p>
+          <div class="item-footer">
+            <span class="item-meta">Medium-Light</span>
+            <span class="item-meta">Panama</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Smoked Cinnamon Cortado -->
+        <div class="menu-card" data-category="signature">
+          <div class="menu-card-header">
+            <span class="item-tag">Barista Signature</span>
+            <span class="item-price">$6.25</span>
+          </div>
+          <h3 class="item-title">Smoked Cinnamon Cortado</h3>
+          <p class="item-description">Equal parts espresso and velvety steamed milk, infused with cold-smoked Ceylon cinnamon bark shavings and sweetened subtly with raw demerara sugar syrup.</p>
+          <div class="item-footer">
+            <span class="item-meta">Medium Roast</span>
+            <span class="item-meta">Colombia</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Yemen Sidr Cold Brew -->
+        <div class="menu-card" data-category="slowdrip">
+          <div class="menu-card-header">
+            <span class="item-tag">slow drip pour-over</span>
+            <span class="item-price">$8.50</span>
+          </div>
+          <h3 class="item-title">Yemen Sidr Cold Drip</h3>
+          <p class="item-description">Cold-brewed drop-by-drop for 18 hours using single-origin Yemen natural beans and mineral spring water. Sweet, heavy chocolate notes, accented with rare Yemen Sidr honey.</p>
+          <div class="item-footer">
+            <span class="item-meta">Dark-Medium</span>
+            <span class="item-meta">Yemen</span>
+          </div>
+        </div>
+
+        <!-- Card 5: Pistachio Orange Blossom Croissant -->
+        <div class="menu-card" data-category="patisserie">
+          <div class="menu-card-header">
+            <span class="item-tag">Boulangerie Craft</span>
+            <span class="item-price">$7.50</span>
+          </div>
+          <h3 class="item-title">Pistachio Orange Blossom Croissant</h3>
+          <p class="item-description">A multi-layered flaky artisanal croissant filled with orange blossom infused pistachio pastry cream, roasted Bronte pistachios, and topped with dried candied rose petals.</p>
+          <div class="item-footer">
+            <span class="item-meta">Baked Fresh</span>
+            <span class="item-meta">Sweet</span>
+          </div>
+        </div>
+
+        <!-- Card 6: Madagascar Vanilla Canelé -->
+        <div class="menu-card" data-category="patisserie">
+          <div class="menu-card-header">
+            <span class="item-tag">Boulangerie Craft</span>
+            <span class="item-price">$5.00</span>
+          </div>
+          <h3 class="item-title">Madagascar Vanilla Canelé</h3>
+          <p class="item-description">Classic Bordeaux pastry with a thoroughly caramelized, dark, thick, crunchy crust and a soft, rich custard heart, heavily fragrant with genuine Madagascar Bourbon vanilla bean and dark rum.</p>
+          <div class="item-footer">
+            <span class="item-meta">Baked Fresh</span>
+            <span class="item-meta">Caramelized</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Experience Section (Carousel) -->
+  <section class="experience-section" id="experience">
+    <div class="section-container">
+      <div class="experience-header">
+        <span class="section-badge">The Sanctuary Experience</span>
+        <h2>Moments in Slow Motion</h2>
+        <p class="section-desc">We invite you to sit down, disconnect, and observe the beautiful mechanics of slow extraction. Every detail is curated for visual and sensory serenity.</p>
+      </div>
+
+      <!-- Carousel Container -->
+      <div class="carousel-container">
+        <div class="carousel-track" id="carousel-track">
+          <!-- Slide 1 -->
+          <div class="carousel-slide active">
+            <img src="assets/hero_coffee.png" alt="Barista pouring V60 slow coffee">
+            <div class="slide-content">
+              <h3>The Art of Slow Pour-Over</h3>
+              <p>Meticulously calculated spiral pours extract the volatile aromatics of single-origin heirloom coffee beans with absolute clarity.</p>
+            </div>
+          </div>
+          
+          <!-- Slide 2 -->
+          <div class="carousel-slide">
+            <img src="assets/cafe_interior.png" alt="The design interior space of Velvet Espresso">
+            <div class="slide-content">
+              <h3>Architectural Silence</h3>
+              <p>Concrete ceilings, textured slate tiles, brass elements, and sound-absorbing acoustics create a premium, calm sensory workspace.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Buttons -->
+        <button class="carousel-btn btn-prev" id="carousel-prev" aria-label="Previous Slide">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <button class="carousel-btn btn-next" id="carousel-next" aria-label="Next Slide">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+        </button>
+
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators" id="carousel-indicators">
+          <span class="indicator active" data-index="0"></span>
+          <span class="indicator" data-index="1"></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reservation CTA Section -->
+  <section class="cta-section">
+    <div class="cta-container">
+      <div class="cta-inner">
+        <div class="cta-content">
+          <h2>Secure Your Space at the Slow Bar</h2>
+          <p>Due to our focus on meticulous single-cup slow extractions, counter seating and window booths are limited. Reserve your table in advance for an uninterrupted sensory coffee tasting experience.</p>
+          <button class="btn btn-primary btn-drawer-trigger">Reserve Table Instantly</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sliding Reservation Drawer -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="reservation-drawer" id="reservation-drawer" aria-label="Table reservation drawer">
+    <div class="drawer-header">
+      <h2>Table Reservation</h2>
+      <button class="drawer-close" id="drawer-close" aria-label="Close drawer">✕</button>
+    </div>
+    
+    <div class="drawer-body">
+      <!-- Reservation Form -->
+      <form id="reservation-form" class="reservation-form">
+        <!-- Guest Count -->
+        <div class="form-group">
+          <label for="guests">Number of Guests</label>
+          <select id="guests" required>
+            <option value="1">1 Guest (Slow Bar Counter)</option>
+            <option value="2" selected>2 Guests (Booths & Counter)</option>
+            <option value="3">3 Guests (Booths)</option>
+            <option value="4">4 Guests (Booths)</option>
+            <option value="5+">5+ Guests (Large Tasting Table)</option>
+          </select>
+        </div>
+
+        <!-- Date -->
+        <div class="form-group">
+          <label for="booking-date">Select Date</label>
+          <input type="date" id="booking-date" required>
+        </div>
+
+        <!-- Time -->
+        <div class="form-group">
+          <label for="booking-time">Select Time Slot</label>
+          <select id="booking-time" required>
+            <option value="" disabled selected>Choose a slot</option>
+            <option value="08:00">08:00 AM - 09:30 AM (Breakfast Drip)</option>
+            <option value="10:00">10:00 AM - 11:30 AM (Mid-Morning Session)</option>
+            <option value="12:00">12:00 PM - 01:30 PM (Midday Chill)</option>
+            <option value="14:00">02:00 PM - 03:30 PM (Afternoon Roastery Tour)</option>
+            <option value="16:00">04:00 PM - 05:30 PM (Sunset Tasting)</option>
+            <option value="18:00">06:00 PM - 07:30 PM (Quiet Evening Lounge)</option>
+          </select>
+        </div>
+
+        <!-- Table Preference -->
+        <div class="form-group">
+          <label for="seating">Seating Preference</label>
+          <select id="seating">
+            <option value="bar">Barista Slow Bar Counter (Observe Pour-Overs)</option>
+            <option value="booth" selected>Cozy Concrete Seating Booth</option>
+            <option value="window">Acoustic Window view booth</option>
+            <option value="no-pref">No preference (First available)</option>
+          </select>
+        </div>
+
+        <!-- Custom requests -->
+        <div class="form-group">
+          <label for="notes">Special Tasting Notes / Allergies</label>
+          <textarea id="notes" rows="3" placeholder="E.g., Vegetarian pastries, preference for light roasted Yemen brew, quiet corner room..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-submit">Confirm Reservation</button>
+      </form>
+
+      <!-- Success Animation Overlay (Dynamic) -->
+      <div class="booking-success-screen" id="booking-success">
+        <div class="success-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+        <h3>Sensory Tasting Confirmed</h3>
+        <p>Your table at Velvet Espresso is booked. A calendar invite and curation guide have been compiled for you.</p>
+        
+        <div class="summary-details">
+          <div class="summary-row">
+            <span>Guests:</span>
+            <strong id="summary-guests">-</strong>
+          </div>
+          <div class="summary-row">
+            <span>Date:</span>
+            <strong id="summary-date">-</strong>
+          </div>
+          <div class="summary-row">
+            <span>Time Slot:</span>
+            <strong id="summary-time">-</strong>
+          </div>
+          <div class="summary-row">
+            <span>Table:</span>
+            <strong id="summary-seating">-</strong>
+          </div>
+        </div>
+
+        <button class="btn btn-secondary" id="success-close-btn">Done</button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-cols">
+        <div class="footer-col footer-brand">
+          <h3>Velvet Espresso</h3>
+          <p>Meticulously sourced micro-lot roasters and artisanal slow bars. Delivering sensory silence in the heart of Toronto.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#story">Philosophy</a></li>
+            <li><a href="#menu">Artisanal Menu</a></li>
+            <li><a href="#experience">The Slow Bar</a></li>
+            <li><a href="#" class="btn-drawer-trigger">Bookings</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact & Location</h4>
+          <p>124 King St West, Toronto, ON</p>
+          <p class="footer-highlight">T: +1 (416) 555-8290</p>
+          <p>E: hello@velvetespresso.com</p>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Velvet Espresso Roasters. All rights reserved. Crafted in quiet luxury.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast (Dynamic) -->
+  <div class="toast-notify" id="toast-notify"></div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
